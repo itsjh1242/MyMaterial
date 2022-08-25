@@ -1,2 +1,2 @@
-# algorithm
-welcome to my algorithm study place
+# Everyone can be shared my Material for your design or algorithm, etc.
+
