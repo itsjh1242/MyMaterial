@@ -1,1 +1,82 @@
 /* Color */
+:root {
+    --white: rgb(255, 255, 255);
+    --blue-white: rgb(207, 221, 252);
+    --red-white: rgb(252, 207, 207);
+    --blue-light: rgb(76, 131, 255);
+    --blue: rgb(0, 79, 255);
+    --blue-dark: rgb(52, 103, 217);
+    --gray-light: rgb(238, 242, 246);
+    --gray-semi-light: rgb(197, 202, 213);
+    --gray: rgb(79, 81, 84);
+    --gray-dark: rgb(51, 52, 56);
+    --semi-black: rgb(21, 21, 22);
+    --black: rgb(23, 23, 24);
+    --red: rgb(225, 75, 75);
+    --green-light: rgb(150, 250, 83);
+}
+
+/* Card */
+
+/* Middle */
+/* 
+<div class="card-mid-frame">
+    <div class="card-mid-top">
+        <img src="..." class="card-mid-img" alt="...">
+    </div>
+    <div class="card-mid-content">
+        <h5 class="card-mid-title"> Card title </h5>
+        <p class="card-mid-text"> Some quick example text to build on the card title and make up the bulk of the card's content. </p>
+        <a href="#" class="card-mid-btn">Go somewhere</a>
+    </div>
+</div>
+*/
+.card-mid-frame{
+    width: 280px;
+    height: 440px;
+    /* display */
+    /* margin */
+    /* padding */
+    border: 2px solid var(--gray-light);
+    border-radius: 12px;
+}
+.card-mid-top{
+    width: 280px;
+    height: 260px;
+    /* display */
+    /* margin */
+    /* padding */
+    border-bottom: 1px solid var(--gray-light);
+    border-radius: 12px 12px 0 0;
+}
+.card-mid-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.card-mid-content{
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    /* margin */
+    /* padding */
+    border-radius: 0 0 12px 12px;
+}
+.card-mid-title{
+    margin: 0.5rem;
+    font-size: 18px;
+}
+.card-mid-text{
+    margin: 0.5rem;
+}
+.card-mid-btn{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--green-light);
+}
