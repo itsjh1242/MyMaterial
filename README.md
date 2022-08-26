@@ -2,5 +2,5 @@
 
 <center>
   <h4>Card-mid</h4>
-  <img src="./img/card-mid.png" height = '30'/>
+  <img src="./img/card-mid.png" width = '300' height = '400'/>
 </center>
